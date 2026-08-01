@@ -1,3 +1,5 @@
+// Temperature Converter using map()
+
 const celsius = [0, 20, 30, 40];
 
 let fahrenheit = celsius.map(temp => (temp *9/5)+32);
@@ -12,3 +14,4 @@ console.log(`celsius:${celsius}\n farenheit:${fahrenheit}`);
 
 // Do not modify this line
 module.exports = fahrenheit;
+
